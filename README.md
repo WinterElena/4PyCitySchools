@@ -4,15 +4,15 @@
 Maria, Chief Data Scientist for a local school district believes there has been evidence of academic dishonesty within the school district.  Maria has enlisted my help to analyze math and reading score data and look at what the results are with and without the data they believe to be skewed.  Maria has requested that I create a program that drops the reading and math scores of the students in 9th grade at Thomas High School and provide an analysis.  
 
 ### School District Analysis Results:
-# The school district data was not largely affected by removing the math and reading scores for the 9th grad students at Thomas High School-- only a marginal drop in scores were seen.
-	#Original testing data
+## The school district data was not largely affected by removing the math and reading scores for the 9th grad students at Thomas High School-- only a marginal drop in scores were seen.
+	Original testing data
 	- Average Math Score : 79.0%
 	- Average Reading Score : 81.9%
 	- Percentage Passing Math : 75.0%
 	- Percentage Passing Reading : 85.8%
 	- Percentage Overall Passing : 65.2%
 
-	#New testing data
+	New testing data
 	- Average Math Score : 78.9%
 	- Average Reading Score : 81.9%
 	- Percentage Passing Math : 78.4%
@@ -21,7 +21,7 @@ Maria, Chief Data Scientist for a local school district believes there has been 
 
 - It does not appear that removing the 9th grader math and reading data caused any affect when rating Thomas High School's performance relative to other schools in the district.  
 
-# WHAT WAS THE IMPACT of NaN?
+## WHAT WAS THE IMPACT of NaN?
 - When looking at how each grade level was affected by removing the 9th grade math and reading scores from Thomas High School, I think it's safe to say that grades 10-12 were not affected by the removal greatly and the schools other that Thomas High School were not affected in grades 10-12 at all.  The other 9th grades were affected because the null values changed the overall numbers, but it did not provide a great impact.
 - Scores by school spending saw each category increase from the original to new by less than 2%, with the Overall Passing increasing in original data from 63% to 66%-- again, only a marginal increase.
 - Looking only at the Medium size group (1000-2000) that contains the Thomas High School 9th grade students-- all scores stayed the same in the original and new data!
