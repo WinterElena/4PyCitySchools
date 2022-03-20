@@ -4,7 +4,7 @@
 Maria, Chief Data Scientist for a local school district believes there has been evidence of academic dishonesty within the school district.  Maria has enlisted my help to analyze math and reading score data and look at what the results are with and without the data they believe to be skewed.  Maria has requested that I create a program that drops the reading and math scores of the students in 9th grade at Thomas High School and provide an analysis.  
 
 ### School District Analysis Results:
-## The school district data was not largely affected by removing the math and reading scores for the 9th grad students at Thomas High School-- only a marginal drop in scores were seen.
+## The school district data was not largely affected by removing the math and reading scores for the 9th grade students at Thomas High School-- only a marginal drop in scores were seen.
 	Original testing data
 	- Average Math Score : 79.0%
 	- Average Reading Score : 81.9%
